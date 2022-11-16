@@ -870,3 +870,362 @@ footer span a:hover {
   margin-top: 4%;
   color:black;
 }
+
+
+/* scss mukund */
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+  #skills {
+    width: 100%;
+    margin: auto;
+    margin-top: 4.5vw;
+    padding-top: 2vw;
+    padding-bottom: 8vw;
+    text-align: center;
+    background-color: rgba(255, 174, 69, 0.548);
+  }
+
+  #skills h1 {
+    font-size: 6vw;
+    color: #012b42;
+    margin-top: 0.9vw;
+  }
+  #skills hr {
+    width: 12vw;
+    height: 0.8vw;
+    background-color: #d37800;
+    color: #ff9100;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -4vw;
+  }
+
+  #tech_skill {
+    width: 80vw;
+    margin: auto;
+    margin-top: -1vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    column-gap: 2vw;
+    box-sizing: border-box;
+  }
+  #tech_skill > div {
+    margin-top: 0.9vw;
+    height: 28vw;
+    padding: 1.8vw 1.8vw;
+    font-size: 3.3vw;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #00263a;
+    color: rgb(255, 255, 255);
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 6px;
+  }
+
+  #tech_skill > div:hover {
+    box-shadow: rgba(0, 238, 255, 0.877) 0px 5px 15px;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+  }
+
+  #tech_skill > div > img {
+    height: 60%;
+  }
+  #both_skill {
+    width: 100%;
+  }
+  #both_skill h2 {
+    font-size: 4vw;
+    text-align: left;
+    color: #00263b;
+    margin-top: 3vw;
+    background-image: linear-gradient(
+      to right,
+      #ffffff 82%,
+      #ffffffe3 84%,
+      #ffffffbe 88%,
+      #ffffff28 98%,
+      #ffffff05 100%
+    );
+    padding: 0.5vw 1.5vw;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    margin-left: 7.4vw;
+    width: 35vw;
+  }
+
+  #soft_skill {
+    width: 82vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    column-gap: 3vw;
+    box-sizing: border-box;
+    margin-top: 1.8vw;
+  }
+
+  #soft_skill h3 {
+    background-color: #00263b;
+    color: rgb(255, 255, 255);
+    padding: 2.4vw;
+    margin-bottom: -1.7vw;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 6px;
+    font-size: 3.6vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  #soft_skill h3:hover {
+    box-shadow: rgba(0, 238, 255, 0.795) 0px 5px 15px;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.25s;
+    font-size: 3.25vw;
+  }
+  #soft_skill_head {
+    margin-top: 4vw;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 851px) and (min-width: 501px) {
+  #skills {
+    width: 100%;
+    margin: auto;
+    margin-top: 4.5vw;
+    padding-top: 2vw;
+    padding-bottom: 4vw;
+    text-align: center;
+    background-color: rgba(255, 174, 69, 0.548);
+  }
+
+  #skills h1 {
+    font-size: 4vw;
+    color: #012b42;
+    margin-top: 0.9vw;
+  }
+  #skills hr {
+    width: 8vw;
+    height: 0.4vw;
+    background-color: #d37800;
+    color: #ff9100;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -3.1vw;
+  }
+
+  #tech_skill {
+    width: 82vw;
+    margin: auto;
+    margin-top: -1vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+    column-gap: 2vw;
+    box-sizing: border-box;
+  }
+  #tech_skill > div {
+    margin-top: 0.9vw;
+    height: 20vw;
+    padding: 1vw 1vw;
+    font-size: 1.8vw;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #00263a;
+    color: rgb(255, 255, 255);
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 6px;
+  }
+
+  #tech_skill > div:hover {
+    box-shadow: rgba(0, 238, 255, 0.877) 0px 5px 15px;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+  }
+
+  #tech_skill > div > img {
+    height: 60%;
+  }
+  #both_skill {
+    width: 100%;
+  }
+  #both_skill h2 {
+    font-size: 2.6vw;
+    text-align: left;
+    color: #00263b;
+    margin-top: 2.5vw;
+    background-image: linear-gradient(
+      to right,
+      #ffffff 82%,
+      #ffffffe3 84%,
+      #ffffffbe 88%,
+      #ffffff28 98%,
+      #ffffff05 100%
+    );
+    padding: 0.5vw 1.5vw;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    margin-left: 7.4vw;
+    width: 26vw;
+  }
+
+  #soft_skill {
+    width: 82vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    column-gap: 3vw;
+    box-sizing: border-box;
+    margin-top: 1.8vw;
+  }
+
+  #soft_skill h3 {
+    background-color: #00263b;
+    color: rgb(255, 255, 255);
+    padding: 1.8vw;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 6px;
+    font-size: 2.4vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: -0.1vw;
+  }
+  #soft_skill h3:hover {
+    box-shadow: rgba(0, 238, 255, 0.877) 0px 5px 15px;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.25s;
+    font-size: 2.45vw;
+  }
+  #soft_skill_head {
+    margin-top: 4vw;
+  }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 850px) {
+  #skills {
+    width: 100%;
+    margin: auto;
+    margin-top: 4.5vw;
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+    text-align: center;
+    background-color: rgba(255, 174, 69, 0.548);
+  }
+
+  #skills h1 {
+    font-size: 3.1vw;
+    color: #002d46;
+    margin-top: 0.9vw;
+  }
+  #skills hr {
+    width: 6.6vw;
+    height: 0.35vw;
+    background-color: #ff9100;
+    color: #ff9100;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -2.5vw;
+  }
+
+  #tech_skill {
+    width: 75vw;
+    margin: auto;
+    margin-top: -1vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: left;
+    column-gap: 2vw;
+    box-sizing: border-box;
+  }
+  #tech_skill > div {
+    margin-top: 0.9vw;
+    height: 13vw;
+    padding: 1vw 1vw;
+    font-size: 1.3vw;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #00263a;
+    color: rgb(255, 255, 255);
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 6px;
+  }
+
+  #tech_skill > div:hover {
+    box-shadow:rgba(0, 238, 255, 0.877) 0px 5px 15px;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+  }
+
+  #tech_skill > div > img {
+    height: 60%;
+  }
+  #both_skill {
+    width: 100%;
+  }
+  #both_skill h2 {
+    font-size: 2.1vw;
+    text-align: left;
+    color: #00263b;
+    margin-top: 2.5vw;
+    background-image: linear-gradient(
+      to right,
+      #ffffff 82%,
+      #ffffffe3 84%,
+      #ffffffbe 88%,
+      #ffffff28 98%,
+      #ffffff05 100%
+    );
+    padding: 0.5vw 1.5vw;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    margin-left: 12vw;
+    width: 22vw;
+  }
+
+  #soft_skill {
+    width: 75vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    column-gap: 3vw;
+    box-sizing: border-box;
+    margin-top: 1.8vw;
+  }
+
+  #soft_skill h3 {
+    background-color: #00263b;
+    color: rgb(255, 255, 255);
+    padding: 1.2vw;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 6px;
+    font-size: 1.6vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: -0.1vw;
+  }
+  #soft_skill h3:hover {
+    box-shadow: rgba(0, 238, 255, 0.877) 0px 5px 15px;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.25s;
+    font-size: 1.45vw;
+  }
+  #soft_skill_head {
+    margin-top: 4vw;
+  }
+}
