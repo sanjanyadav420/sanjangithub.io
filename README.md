@@ -1,2 +1,3 @@
-# Sanjan
-https://sanjanyadav420.github.io/Sanjan/
+# SanjanGithub.io
+
+https://sanjanyadav420.github.io/sanjangithub.io/
