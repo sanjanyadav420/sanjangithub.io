@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
 
-
 * {
   margin: 0;
   padding: 0;
@@ -426,14 +425,17 @@ background-size: 10px 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 .skills .skills-content .left .text {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
 }
+
 .skills .skills-content .left p {
   text-align: justify;
 }
+
 .skills .skills-content .left a {
   display: inline-block;
   background: orange;
@@ -446,6 +448,7 @@ background-size: 10px 10px;
   border: 1px solid orange;
   transition: all 0.3s ease;
 }
+
 .skills .skills-content .left a:hover {
   color: orange;
   background: none;
